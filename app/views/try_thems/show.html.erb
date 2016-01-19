@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @try_them.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @try_them.description %>
+</p>
+
+<%= link_to 'Edit', edit_try_them_path(@try_them) %> |
+<%= link_to 'Back', try_thems_path %>
